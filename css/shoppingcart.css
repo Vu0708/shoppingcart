@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html body h2, html body h3 {
+  text-align: center;
+}
+html body.list {
+  min-width: 75rem;
+}
+
+#entry label:hover {
+  font-size: 1.32rem;
+  font-weight: bold;
+}
+#entry .borderless {
+  margin: 1.2rem auto;
+}
+#entry .borderless th, #entry .borderless td {
+  width: 6rem;
+  border-width: 0;
+}
+#entry .borderless td:first-child {
+  width: 5.1rem;
+}
+
+#result h3 {
+  text-align: center;
+}
+#result table {
+  margin: 0 auto;
+}
+#result table tr th, #result table tr td {
+  padding: 1.8rem 1.8rem 0.6rem 1.8rem;
+  border-width: 0;
+  border-bottom: 1px solid #93c400;
+}
+#result table tr th:nth-child(2) {
+  text-align: center;
+}
+#result table tr td:nth-child(2), #result table tr td.right {
+  text-align: right;
+}
+#result table tr td:nth-child(2):before {
+  content: "\\";
+}
+#result table tr td.right:after {
+  content: "分";
+}
+#result table caption {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+}
