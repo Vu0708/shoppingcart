@@ -105,8 +105,8 @@ if ($book_mode === "clear") {
 		<tr>
 		    <th><h3>書籍</h3></th>
 			<th>書籍名</th>
-			<th>価格</th>
 			<th>著者</th>
+			<th>価格</th>
 			<th>ISBN</th>
 		</tr>
 		<?php foreach ($book_cart as $product) { $book_position++; ?>
@@ -141,8 +141,8 @@ if ($book_mode === "clear") {
 		<tr>
 		    <th><h3>書籍</h3></th>
 			<th>書籍名</th>
-			<th>価格</th>
 			<th>著者</th>
+			<th>価格</th>
 			<th>ISBN</th>
 		</tr>
 		<?php foreach ($book_cart as $product) { $book_position++; ?>

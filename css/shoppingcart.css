@@ -39,7 +39,7 @@ html body.list {
   text-align: right;
 }
 #result table tr td:nth-child(2):before {
-  content: "\\";
+  content: "";
 }
 #result table tr td.right:after {
   content: "分";

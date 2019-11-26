@@ -38,8 +38,8 @@ $DvdItem = createDvdItems();
 			    if($result == "book"){ ?>
 			        <tr>
 						<th>書籍名</th>
-						<th>価格</th>
 						<th>著者</th>
+						<th>価格</th>
 						<th>ISBN</th>
 						<th></th>
 					</tr>
@@ -72,8 +72,8 @@ $DvdItem = createDvdItems();
 					<tr>
 					    <th><h3>書籍</h3></th>
 						<th>書籍名</th>
-						<th>価格</th>
 						<th>著者</th>
+						<th>価格</th>
 						<th>ISBN</th>
 						<th></th>
 					</tr>
